@@ -14,12 +14,17 @@ extra_hosts:
     - host.docker.internal:host-gateway
 ```
 
-We use this option to avoid the problem of docker not being able to resolve the hostname `host.docker.internal` properly. (Generally used to fix all most the problemns with xDebug)
+> **Note**
+> We use this option to avoid the problem of docker not being able to resolve the hostname `host.docker.internal` properly. (Generally used to fix all most the problemns with xDebug)
+
 
 ## Getting Starting
 
 ### Step 1
-Make sure you add correct permissions to storage folder (for allow laravel write logs)
+
+> **Warning**
+> Make sure you add correct permissions to storage folder (for allow laravel write logs)
+
 - Run `sudo chmod -R 777 storage/`
 
 ### Step 2
@@ -53,10 +58,10 @@ https://gist.github.com/nicollasfeitosa/5361895678fcf924c4a2c503913fa2f0
 
 # Future Todo
 
-- [] Create unit tests
-- [] Create integration tests
-- [] Create cache layer for optimize performance
-- [] Create a role and permission system for users
+- [ ] Create unit tests
+- [ ] Create integration tests
+- [ ] Create cache layer for optimize performance
+- [ ] Create a role and permission system for users
 
 # Questions
 Contact me at
